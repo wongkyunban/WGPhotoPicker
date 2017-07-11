@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A59562CF1F13169B007E684B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562CE1F13169B007E684B /* AppDelegate.swift */; };
+		A59562D11F13169B007E684B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562D01F13169B007E684B /* ViewController.swift */; };
+		A59562D41F13169B007E684B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59562D21F13169B007E684B /* Main.storyboard */; };
+		A59562D61F13169B007E684B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59562D51F13169B007E684B /* Assets.xcassets */; };
+		A59562D91F13169B007E684B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59562D71F13169B007E684B /* LaunchScreen.storyboard */; };
+		A59562EB1F1319FE007E684B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562EA1F1319FE007E684B /* CameraViewController.swift */; };
+		A59562F11F131DB0007E684B /* PhotoAlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562EC1F131DB0007E684B /* PhotoAlbumsTableViewController.swift */; };
+		A59562F21F131DB0007E684B /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562ED1F131DB0007E684B /* PhotoCollectionViewController.swift */; };
+		A59562F31F131DB0007E684B /* PhotoPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562EE1F131DB0007E684B /* PhotoPickerController.swift */; };
+		A59562F41F131DB0007E684B /* PhotoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562EF1F131DB0007E684B /* PhotoPreviewViewController.swift */; };
+		A59562F51F131DB0007E684B /* SinglePhotoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562F01F131DB0007E684B /* SinglePhotoPreviewViewController.swift */; };
+		A59562F71F131DC9007E684B /* PhotoImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562F61F131DC9007E684B /* PhotoImageManager.swift */; };
+		A59562F91F131DEB007E684B /* PhotoFetchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562F81F131DEB007E684B /* PhotoFetchOptions.swift */; };
+		A59562FB1F131DFE007E684B /* PhotoPickerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562FA1F131DFE007E684B /* PhotoPickerConfig.swift */; };
+		A59562FE1F131E13007E684B /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562FC1F131E13007E684B /* UICollectionView+Extension.swift */; };
+		A59562FF1F131E13007E684B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59562FD1F131E13007E684B /* UIImage+Extension.swift */; };
+		A59563031F131E23007E684B /* AlbumToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59563001F131E23007E684B /* AlbumToolbarView.swift */; };
+		A59563041F131E23007E684B /* PhotoPreviewBottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59563011F131E23007E684B /* PhotoPreviewBottomBarView.swift */; };
+		A59563051F131E23007E684B /* PhotoPreviewToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59563021F131E23007E684B /* PhotoPreviewToolbarView.swift */; };
+		A595630B1F131E34007E684B /* PhotoAlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59563061F131E34007E684B /* PhotoAlbumTableViewCell.swift */; };
+		A595630C1F131E34007E684B /* PhotoAlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59563071F131E34007E684B /* PhotoAlbumTableViewCell.xib */; };
+		A595630D1F131E34007E684B /* photoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59563081F131E34007E684B /* photoCollectionViewCell.swift */; };
+		A595630E1F131E34007E684B /* photoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59563091F131E34007E684B /* photoCollectionViewCell.xib */; };
+		A595630F1F131E34007E684B /* PhotoPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A595630A1F131E34007E684B /* PhotoPreviewCell.swift */; };
+		A59563131F131E4A007E684B /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59563101F131E4A007E684B /* ImageModel.swift */; };
+		A59563141F131E4A007E684B /* PhotoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59563111F131E4A007E684B /* PhotoImage.swift */; };
+		A59563151F131E4A007E684B /* PhotoImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59563121F131E4A007E684B /* PhotoImageModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A59562CB1F13169B007E684B /* WGPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59562CE1F13169B007E684B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A59562D01F13169B007E684B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A59562D31F13169B007E684B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A59562D51F13169B007E684B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A59562D81F13169B007E684B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A59562DA1F13169B007E684B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A59562EA1F1319FE007E684B /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = source/camera/CameraViewController.swift; sourceTree = "<group>"; };
+		A59562EC1F131DB0007E684B /* PhotoAlbumsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoAlbumsTableViewController.swift; path = source/controller/PhotoAlbumsTableViewController.swift; sourceTree = "<group>"; };
+		A59562ED1F131DB0007E684B /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCollectionViewController.swift; path = source/controller/PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		A59562EE1F131DB0007E684B /* PhotoPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoPickerController.swift; path = source/controller/PhotoPickerController.swift; sourceTree = "<group>"; };
+		A59562EF1F131DB0007E684B /* PhotoPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoPreviewViewController.swift; path = source/controller/PhotoPreviewViewController.swift; sourceTree = "<group>"; };
+		A59562F01F131DB0007E684B /* SinglePhotoPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SinglePhotoPreviewViewController.swift; path = source/controller/SinglePhotoPreviewViewController.swift; sourceTree = "<group>"; };
+		A59562F61F131DC9007E684B /* PhotoImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoImageManager.swift; path = source/manager/PhotoImageManager.swift; sourceTree = "<group>"; };
+		A59562F81F131DEB007E684B /* PhotoFetchOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoFetchOptions.swift; path = source/option/PhotoFetchOptions.swift; sourceTree = "<group>"; };
+		A59562FA1F131DFE007E684B /* PhotoPickerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoPickerConfig.swift; path = source/config/PhotoPickerConfig.swift; sourceTree = "<group>"; };
+		A59562FC1F131E13007E684B /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Extension.swift"; path = "source/extension/UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		A59562FD1F131E13007E684B /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "source/extension/UIImage+Extension.swift"; sourceTree = "<group>"; };
+		A59563001F131E23007E684B /* AlbumToolbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumToolbarView.swift; path = source/view/AlbumToolbarView.swift; sourceTree = "<group>"; };
+		A59563011F131E23007E684B /* PhotoPreviewBottomBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoPreviewBottomBarView.swift; path = source/view/PhotoPreviewBottomBarView.swift; sourceTree = "<group>"; };
+		A59563021F131E23007E684B /* PhotoPreviewToolbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoPreviewToolbarView.swift; path = source/view/PhotoPreviewToolbarView.swift; sourceTree = "<group>"; };
+		A59563061F131E34007E684B /* PhotoAlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoAlbumTableViewCell.swift; path = source/cell/PhotoAlbumTableViewCell.swift; sourceTree = "<group>"; };
+		A59563071F131E34007E684B /* PhotoAlbumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhotoAlbumTableViewCell.xib; path = source/cell/PhotoAlbumTableViewCell.xib; sourceTree = "<group>"; };
+		A59563081F131E34007E684B /* photoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = photoCollectionViewCell.swift; path = source/cell/photoCollectionViewCell.swift; sourceTree = "<group>"; };
+		A59563091F131E34007E684B /* photoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = photoCollectionViewCell.xib; path = source/cell/photoCollectionViewCell.xib; sourceTree = "<group>"; };
+		A595630A1F131E34007E684B /* PhotoPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoPreviewCell.swift; path = source/cell/PhotoPreviewCell.swift; sourceTree = "<group>"; };
+		A59563101F131E4A007E684B /* ImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageModel.swift; path = source/model/ImageModel.swift; sourceTree = "<group>"; };
+		A59563111F131E4A007E684B /* PhotoImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoImage.swift; path = source/model/PhotoImage.swift; sourceTree = "<group>"; };
+		A59563121F131E4A007E684B /* PhotoImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoImageModel.swift; path = source/model/PhotoImageModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A59562C81F13169B007E684B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A59562C21F13169B007E684B = {
+			isa = PBXGroup;
+			children = (
+				A59562CD1F13169B007E684B /* WGPhotoPicker */,
+				A59562CC1F13169B007E684B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A59562CC1F13169B007E684B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A59562CB1F13169B007E684B /* WGPhotoPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A59562CD1F13169B007E684B /* WGPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A59562E01F1316D7007E684B /* source */,
+				A59562CE1F13169B007E684B /* AppDelegate.swift */,
+				A59562D01F13169B007E684B /* ViewController.swift */,
+				A59562D21F13169B007E684B /* Main.storyboard */,
+				A59562D51F13169B007E684B /* Assets.xcassets */,
+				A59562D71F13169B007E684B /* LaunchScreen.storyboard */,
+				A59562DA1F13169B007E684B /* Info.plist */,
+			);
+			path = WGPhotoPicker;
+			sourceTree = "<group>";
+		};
+		A59562E01F1316D7007E684B /* source */ = {
+			isa = PBXGroup;
+			children = (
+				A59562E91F131751007E684B /* camera */,
+				A59562E81F131748007E684B /* model */,
+				A59562E71F13173F007E684B /* cell */,
+				A59562E61F131738007E684B /* view */,
+				A59562E51F13172E007E684B /* extension */,
+				A59562E41F131724007E684B /* config */,
+				A59562E31F131717007E684B /* option */,
+				A59562E21F13170B007E684B /* manager */,
+				A59562E11F1316FE007E684B /* controller */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		A59562E11F1316FE007E684B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A59562EC1F131DB0007E684B /* PhotoAlbumsTableViewController.swift */,
+				A59562ED1F131DB0007E684B /* PhotoCollectionViewController.swift */,
+				A59562EE1F131DB0007E684B /* PhotoPickerController.swift */,
+				A59562EF1F131DB0007E684B /* PhotoPreviewViewController.swift */,
+				A59562F01F131DB0007E684B /* SinglePhotoPreviewViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		A59562E21F13170B007E684B /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				A59562F61F131DC9007E684B /* PhotoImageManager.swift */,
+			);
+			name = manager;
+			sourceTree = "<group>";
+		};
+		A59562E31F131717007E684B /* option */ = {
+			isa = PBXGroup;
+			children = (
+				A59562F81F131DEB007E684B /* PhotoFetchOptions.swift */,
+			);
+			name = option;
+			sourceTree = "<group>";
+		};
+		A59562E41F131724007E684B /* config */ = {
+			isa = PBXGroup;
+			children = (
+				A59562FA1F131DFE007E684B /* PhotoPickerConfig.swift */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		A59562E51F13172E007E684B /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				A59562FC1F131E13007E684B /* UICollectionView+Extension.swift */,
+				A59562FD1F131E13007E684B /* UIImage+Extension.swift */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		A59562E61F131738007E684B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A59563001F131E23007E684B /* AlbumToolbarView.swift */,
+				A59563011F131E23007E684B /* PhotoPreviewBottomBarView.swift */,
+				A59563021F131E23007E684B /* PhotoPreviewToolbarView.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		A59562E71F13173F007E684B /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				A59563061F131E34007E684B /* PhotoAlbumTableViewCell.swift */,
+				A59563071F131E34007E684B /* PhotoAlbumTableViewCell.xib */,
+				A59563081F131E34007E684B /* photoCollectionViewCell.swift */,
+				A59563091F131E34007E684B /* photoCollectionViewCell.xib */,
+				A595630A1F131E34007E684B /* PhotoPreviewCell.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		A59562E81F131748007E684B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A59563101F131E4A007E684B /* ImageModel.swift */,
+				A59563111F131E4A007E684B /* PhotoImage.swift */,
+				A59563121F131E4A007E684B /* PhotoImageModel.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A59562E91F131751007E684B /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				A59562EA1F1319FE007E684B /* CameraViewController.swift */,
+			);
+			name = camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A59562CA1F13169B007E684B /* WGPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59562DD1F13169B007E684B /* Build configuration list for PBXNativeTarget "WGPhotoPicker" */;
+			buildPhases = (
+				A59562C71F13169B007E684B /* Sources */,
+				A59562C81F13169B007E684B /* Frameworks */,
+				A59562C91F13169B007E684B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGPhotoPicker;
+			productName = WGPhotoPicker;
+			productReference = A59562CB1F13169B007E684B /* WGPhotoPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A59562C31F13169B007E684B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = waterway;
+				TargetAttributes = {
+					A59562CA1F13169B007E684B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 38C8EM7C65;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A59562C61F13169B007E684B /* Build configuration list for PBXProject "WGPhotoPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A59562C21F13169B007E684B;
+			productRefGroup = A59562CC1F13169B007E684B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A59562CA1F13169B007E684B /* WGPhotoPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A59562C91F13169B007E684B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59562D91F13169B007E684B /* LaunchScreen.storyboard in Resources */,
+				A59562D61F13169B007E684B /* Assets.xcassets in Resources */,
+				A595630C1F131E34007E684B /* PhotoAlbumTableViewCell.xib in Resources */,
+				A595630E1F131E34007E684B /* photoCollectionViewCell.xib in Resources */,
+				A59562D41F13169B007E684B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A59562C71F13169B007E684B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59562FF1F131E13007E684B /* UIImage+Extension.swift in Sources */,
+				A595630D1F131E34007E684B /* photoCollectionViewCell.swift in Sources */,
+				A59562FE1F131E13007E684B /* UICollectionView+Extension.swift in Sources */,
+				A59563051F131E23007E684B /* PhotoPreviewToolbarView.swift in Sources */,
+				A59562F71F131DC9007E684B /* PhotoImageManager.swift in Sources */,
+				A59562F41F131DB0007E684B /* PhotoPreviewViewController.swift in Sources */,
+				A59562F31F131DB0007E684B /* PhotoPickerController.swift in Sources */,
+				A59562F21F131DB0007E684B /* PhotoCollectionViewController.swift in Sources */,
+				A59562F11F131DB0007E684B /* PhotoAlbumsTableViewController.swift in Sources */,
+				A59562D11F13169B007E684B /* ViewController.swift in Sources */,
+				A59563141F131E4A007E684B /* PhotoImage.swift in Sources */,
+				A595630B1F131E34007E684B /* PhotoAlbumTableViewCell.swift in Sources */,
+				A59563131F131E4A007E684B /* ImageModel.swift in Sources */,
+				A59562FB1F131DFE007E684B /* PhotoPickerConfig.swift in Sources */,
+				A59563151F131E4A007E684B /* PhotoImageModel.swift in Sources */,
+				A59562CF1F13169B007E684B /* AppDelegate.swift in Sources */,
+				A59562F51F131DB0007E684B /* SinglePhotoPreviewViewController.swift in Sources */,
+				A59562F91F131DEB007E684B /* PhotoFetchOptions.swift in Sources */,
+				A59563031F131E23007E684B /* AlbumToolbarView.swift in Sources */,
+				A59563041F131E23007E684B /* PhotoPreviewBottomBarView.swift in Sources */,
+				A595630F1F131E34007E684B /* PhotoPreviewCell.swift in Sources */,
+				A59562EB1F1319FE007E684B /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A59562D21F13169B007E684B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59562D31F13169B007E684B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A59562D71F13169B007E684B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59562D81F13169B007E684B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A59562DB1F13169B007E684B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A59562DC1F13169B007E684B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A59562DE1F13169B007E684B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 38C8EM7C65;
+				INFOPLIST_FILE = WGPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wong.WGPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A59562DF1F13169B007E684B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 38C8EM7C65;
+				INFOPLIST_FILE = WGPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wong.WGPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A59562C61F13169B007E684B /* Build configuration list for PBXProject "WGPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59562DB1F13169B007E684B /* Debug */,
+				A59562DC1F13169B007E684B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59562DD1F13169B007E684B /* Build configuration list for PBXNativeTarget "WGPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59562DE1F13169B007E684B /* Debug */,
+				A59562DF1F13169B007E684B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A59562C31F13169B007E684B /* Project object */;
+}
